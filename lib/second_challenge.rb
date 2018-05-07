@@ -8,6 +8,15 @@ def second_challenge
 
   #code your solution here!
 
+  output = []
+
+  groceries.each do |type, data|
   
+    data.each do |x|
+      output.push(x)
+    end
+  end
+  
+  output
 
 end
